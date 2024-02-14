@@ -11,6 +11,10 @@
     font-size: 2rem;
     font-weight: bold;
 }
+.DisplayTitle{
+    font-size: 2rem;
+    font-weight: bold;
+}
 .displayData{
     padding: 0.5rem 1rem;
 }
@@ -20,4 +24,15 @@
     justify-content: center;
     align-items: center;
     padding: 1rem 0.5rem;
+}
+@media (max-width: 700px) {
+    .DisplayTitle{
+        font-size: 1rem;
+    }
+    .PurchasedVehicles{
+        font-size: 1rem;
+    }
+    .coinDisplay{
+        display: none;
+    }
 }

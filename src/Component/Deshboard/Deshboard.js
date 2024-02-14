@@ -11,16 +11,16 @@ function Deshboard() {
     // Setting up states
     let navigate = useNavigate();
     const [data, setData] = useState([]);
-    const {coins} = useContext(coinSet);
-    const [infleationValue,setInfleationValue] = useState(0);
-    const [username,setUserName] = useState('');
-    const [coin,setCoin] = useState('');
+    const { coins } = useContext(coinSet);
+    const [infleationValue, setInfleationValue] = useState(0);
+    const [username, setUserName] = useState('');
+    const [coin, setCoin] = useState('');
 
-    
+
     // using useEffect for update
-    useEffect(()=>{
-        async function getData(){
-            if(await Decrypt('username') === null){
+    useEffect(() => {
+        async function getData() {
+            if (await Decrypt('username') === null) {
                 navigate('/Login')
             }
             setUserName(await Decrypt('username'));
@@ -40,25 +40,25 @@ function Deshboard() {
     return (
         <>
             <div className="wrapData">
-            <div className="displayData"><span className="title">Hallo: </span>{username}</div>
-            <div className="displayData"><span className="title">Coins: </span>{coin}</div>
-            <div className="infleationValue"><span className="title">Infleation: </span>{infleationValue}</div>
+                <div className="displayData"><span className="DisplayTitle">Hallo: </span>{username}</div>
+                <div className="displayData"><span className="DisplayTitle">Coins: </span>{coin}</div>
+                <div className="infleationValue"><span className="DisplayTitle">Infleation: </span>{infleationValue}</div>
             </div>
             <div className="PurchasedVehicles">Cars Will Apear Heare When You Buy</div>
             <div className="shopBody">
-            {
-                data.map((item) => (
+                {
+                    data.map((item) => (
 
-                    <div className="shopSection">
-                        <img className="itemImage" src={item.carIMG} alt='car' />
-                        <div className="itemdetail">
-                            <div>{item.carName}</div>
-                            <div>{item.carPrise}</div>
+                        <div className="shopSection">
+                            <img className="itemImage" src={item.carIMG} alt='car' />
+                            <div className="itemdetail">
+                                <div>{item.carName}</div>
+                                <div>{item.carPrise}</div>
+                            </div>
                         </div>
-                    </div>
-                ))
-            }
-        </div>
+                    ))
+                }
+            </div>
         </>
     )
 }

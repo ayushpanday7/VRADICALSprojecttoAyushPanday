@@ -23,12 +23,12 @@ function NavBar() {
                     <div className="navContent">Account</div>
                 </Link>
                 <Link className="navlink" to="/Admin">
-                    <span className="material-symbols-outlined">account_circle</span>
+                <span class="material-symbols-outlined">admin_panel_settings</span>
                     <div className="navContent">Admin</div>
                 </Link>
             </div>
             <div className="naviationLogo">
-                <Link className="navlink" to="/BuyCoins">
+                <Link className="navlink coinDisplay" to="/BuyCoins">
                     <span className="material-symbols-outlined">
                         monetization_on
                     </span>

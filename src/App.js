@@ -8,6 +8,7 @@ import coinSet from "./Component/NavBar/coinSet";
 import { useEffect, useState } from "react";
 import { Decrypt } from "./EncrypteStorage";
 import GetCoins from "./Component/GetCoins/GetCoins";
+import Admin from "./Component/Admin/Admin";
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
             <Route path="/register" element={<SignUp />} />
             <Route path="/Shop" element={<Shop />} />
             <Route path="/BuyCoins" element={<GetCoins />} />
+            <Route path="/Admin" element={<Admin />} />
           </Routes>
         </div>
       </Router>

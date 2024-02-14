@@ -35,3 +35,15 @@
     transition-duration: 500ms;
     padding-left: 0.5rem;
 }
+
+@media (max-width: 700px) {
+    *{
+        font-size: 5vw;
+    }
+    .navContent{
+        display: none;
+    }
+    .title{
+        font-size: 0rem;
+    }
+  }
