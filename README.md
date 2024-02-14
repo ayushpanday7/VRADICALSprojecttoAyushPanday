@@ -1,5 +1,7 @@
 # To exicute this web and test code run following command
-## 
+## Run following command at root of project
+# npm i
+this will install all necessory dependency
 
 ## Available Scripts
 
@@ -7,7 +9,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -38,10 +40,33 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Lets see how to use in npm run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+start npm run 
+# on web brouser it should start on localhost:3000;
 
+
+#### first you need to SignIN or SignUP 
+#### at default coin will be 0 
+#### when you press on coin you can buy coins by adding dummy data,
+##### note
+##### `+-----> Card Number should be of length 4`
+##### `+-----> Card password should be of length 4`
+##### `+-----> Ammount Can be 1 or grater`
+
+you can navigate to Shop using Navigation Bar
+# Just Click on Car image you like and proceed to buy
+if you do not have enough coin you will recive Error message
+
+# you can See your cars in your deshboard following are item represent in deshboard
+coin infleation to current value
+          +
+          |
+          +------> It will display current value of infelation of coin, 
+Username and Coin also visible in Deshboard
+
+
+#### For more detail following are resources
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
