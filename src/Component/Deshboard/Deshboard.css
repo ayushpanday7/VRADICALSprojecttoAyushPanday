@@ -1,0 +1,23 @@
+.wrapData{
+    display: flex;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.8rem;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    box-shadow: 0.05rem 0.05rem 0.3rem #808080;
+}
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.displayData{
+    padding: 0.5rem 1rem;
+}
+.PurchasedVehicles{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}

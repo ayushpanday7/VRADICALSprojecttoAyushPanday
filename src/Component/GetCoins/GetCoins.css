@@ -1,0 +1,27 @@
+.inputSystem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+.paymentMode{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    font-size: 2rem;
+}
+.InputFields{
+    width: 50vw;
+}
+.btnCnt{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}

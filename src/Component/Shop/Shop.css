@@ -1,0 +1,28 @@
+.shopBody{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    padding: 1rem 3rem;
+    grid-gap: 1.5rem;
+}
+.shopSection{
+    cursor: pointer;
+    /* justify-self: center; */
+    background-color: #f6f6f6;
+    padding: 0.5rem 1.5rem;
+    overflow: hidden;
+    border-radius: #f9f9f9;
+    width: fit-content;
+}
+.itemImage{
+    grid-column: span 2;
+    object-fit: cover;
+    width: 13rem;
+    height: 13rem;
+}
+.itemdetail{
+    padding: 0.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+}
