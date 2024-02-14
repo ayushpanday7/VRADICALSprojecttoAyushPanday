@@ -1,5 +1,7 @@
 # To exicute this web and test code run following command
 ## Run following command at root of project
+
+note-> before get started you need nodeJS server who's link will be available soon
 # npm i
 this will install all necessory dependency
 
@@ -92,3 +94,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# technology used
+## ReactJS
+## FetchAPI
+## MUI
+## React Router DOM
+## React Secure Storage
