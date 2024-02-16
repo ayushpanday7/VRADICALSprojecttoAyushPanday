@@ -1,7 +1,7 @@
 # To exicute this web and test code run following command
 ## Run following command at root of project
 
-note-> before get started you need nodeJS server who's link will be available soon
+note-> before get started you need nodeJS server who's link --->>>https://github.com/ayushpanday7/VRAyushServer.git
 # npm i
 this will install all necessory dependency
 
