@@ -7,7 +7,7 @@ function Admin() {
     const [infleationValue, setInfleationValue] = useState(0);
     useEffect(()=>{
         async function getData(){
-            let response = await fetch("http://192.168.0.190/Admin");
+            let response = await fetch("http://192.168.0.190/AdminData");
             response = await response.json();
             console.log(response);
             setCURD(response.curdData.length);
@@ -23,7 +23,7 @@ function Admin() {
                 <div className="displayData"><span className="title">CURDs: </span>{curd}</div>
                 <div className="infleationValue"><span className="title">Coin Price: </span>{infleationValue}</div>
             </div>
-            <form action="/addCars" method="post" className="AddCar">
+            <form action="http://192.168.0.190/addCars" method="post" className="AddCar">
                 <span className="title">Add Cars to Shop </span>
                 <TextField style={{width: '70%'}}placeholder="Car ID" type="number" name="carID" />
                 <TextField style={{width: '70%'}}variant="outlined" placeholder="Car Name" type="text" name="carName" />

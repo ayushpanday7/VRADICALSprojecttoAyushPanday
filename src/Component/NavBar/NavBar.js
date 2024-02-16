@@ -23,7 +23,7 @@ function NavBar() {
                     <div className="navContent">Account</div>
                 </Link>
                 <Link className="navlink" to="/Admin">
-                <span class="material-symbols-outlined">admin_panel_settings</span>
+                <span className="material-symbols-outlined">admin_panel_settings</span>
                     <div className="navContent">Admin</div>
                 </Link>
             </div>
